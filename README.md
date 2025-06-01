@@ -1,4 +1,3 @@
-````markdown
 #  Projet Java - Web Service SOAP avec GAX-WS (Banque Service)
 
 Ce projet est un exemple simple d’implémentation d’un **Web Service SOAP** en Java, utilisant **Jakarta JAX-WS** (anciennement JAX-WS RI) pour exposer un service bancaire nommé `BanqueWS`. Le projet inclut un **serveur SOAP**, un **client SOAP (Test Consumer)**, et des exemples de requêtes et réponses SOAP avec **SoapUI**.
