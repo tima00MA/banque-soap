@@ -69,11 +69,6 @@ Endpoint.publish("http://0.0.0.0:8080/", new BanqueService());
 
 ---
 
-## Aperçu du Service SOAP dans SoapUI
-
-Voici une requête de test faite avec SoapUI :
-
-![Requête SoapUI](img/img.png)
 
 ### `Main.java` (Client SOAP)
 
@@ -136,6 +131,11 @@ java -cp out ws.ServerJWS
 </S:Envelope>
 ```
 
+## Aperçu du Service SOAP dans SoapUI
+
+Voici une requête de test faite avec SoapUI :
+
+![Requête SoapUI](img/img.png)
 ---
 
 ## Génération du client SOAP avec `wsimport`
