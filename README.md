@@ -24,9 +24,6 @@ Ce service expose 3 opérations SOAP :
 
 
 
-````
-
-
 ##  Explication des classes
 
 ###  `BanqueService.java` (dans `ws`)
@@ -38,14 +35,13 @@ Classe principale annotée avec `@WebService`. Elle expose 3 méthodes comme op�
 public double conversion(@WebParam(name = "montant") double mt) {
     return mt * 11;
 }
-```
+````
 
 * `conversion(...)` : Convertit un montant euro en dirham.
 * `getCompte(...)` : Retourne un compte avec un solde aléatoire.
 * `listComptes()` : Retourne une liste de 3 comptes factices.
 
-
-###  `Compte.java`
+### `Compte.java`
 
 Classe modèle qui représente un compte bancaire :
 
@@ -85,7 +81,7 @@ System.out.println(proxy.conversionEuroToDH(90));
 
 Il affiche les données d’un compte et itère sur la liste des comptes retournés.
 
->  Les classes du package `proxy` sont générées automatiquement via `wsimport`.
+> Les classes du package `proxy` sont générées automatiquement via `wsimport`.
 
 ---
 
@@ -137,7 +133,7 @@ java -cp out ws.ServerJWS
 
 ---
 
-##  Génération du client SOAP avec `wsimport`
+## Génération du client SOAP avec `wsimport`
 
 Si tu veux générer manuellement les classes proxy :
 
@@ -151,7 +147,7 @@ Cela génère les classes Java dans le package `proxy`.
 
 ## Résultat (console)
 
-bash
+```bash
 990.0
 --------------------------
 4
@@ -161,10 +157,11 @@ Sat Jun 01 12:04:05 WET 2025
 1
 53342.16
 Sat Jun 01 12:04:05 WET 2025
+```
 
-
-##  Auteur
+## Auteur
 
 Projet développé par **Fatima**
-Étudiante en Data Science 
+Étudiante en Data Science
 
+````
