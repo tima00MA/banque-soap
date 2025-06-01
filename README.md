@@ -55,7 +55,7 @@ public class Compte {
 
 ---
 
-### 🔹 `ServerJWS.java`
+###  `ServerJWS.java`
 
 Point d’entrée pour **démarrer le serveur**. Il publie le service à l’URL suivante :
 `http://0.0.0.0:8080/`
@@ -68,6 +68,12 @@ Endpoint.publish("http://0.0.0.0:8080/", new BanqueService());
 > `http://localhost:8080/BanqueWS?wsdl`
 
 ---
+
+## Aperçu du Service SOAP dans SoapUI
+
+Voici une requête de test faite avec SoapUI :
+
+![Requête SoapUI](img/img.png)
 
 ### `Main.java` (Client SOAP)
 
