@@ -168,5 +168,3 @@ Sat Jun 01 12:04:05 WET 2025
 
 Projet développé par **Fatima**
 Étudiante en Data Science
-
-````
